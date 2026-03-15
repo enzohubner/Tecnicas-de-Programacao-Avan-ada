@@ -1,4 +1,6 @@
-package colecao;
+package listaencadeada;
+
+import colecao.IColecao;
 
 public class ListaEncadeada<T> implements IColecao<T> {
 

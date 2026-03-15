@@ -1,4 +1,4 @@
-package colecao;
+package listaencadeada;
 
 class No<T> {
 
