@@ -2,15 +2,19 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import colecao.IColecao;
 import listaencadeada.ListaEncadeada;
+import newListasEncadeadas.ListaEncadeadaArrayList;
+import newListasEncadeadas.ListaEncadeadaLinkedList;
 import dominio.Aluno;
 
 public class TesteEmpirico {
 
     public static void main(String[] args) {
 
-        IColecao<Aluno> lista = new ListaEncadeada<>();
+        // IColecao<Aluno> lista = new ListaEncadeada<>();
+        // IColecao<Aluno> lista = new ListaEncadeadaArrayList<>();
+        IColecao<Aluno> lista = new ListaEncadeadaLinkedList<>();
 
-        String arquivo = "dados100000.txt";
+        String arquivo = "dados400000.txt";
 
         long inicio, fim;
 
